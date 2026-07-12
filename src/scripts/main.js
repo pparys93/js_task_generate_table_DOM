@@ -1,5 +1,5 @@
 'use strict';
-import { people } from './people.js';
+import people from './lib/people.json';
 
 for (const person of people) {
   const age = person.died - person.born;
